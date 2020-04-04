@@ -1,5 +1,11 @@
+html{
+
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,
+    noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
 body{
     background-color: #add8e6;
+ 
 }
 .logo{
     text-align: center;
@@ -16,6 +22,7 @@ body{
     text-align: center;
     border-radius:10px 10px 10px 0px;
     margin: 20px auto;
+    padding-bottom: 30px;
 }
 h1{
     color: #062863;
@@ -29,7 +36,6 @@ p{
 
 }
 .formLabel{
-    font-family: sans-serif;
     color: black;
     text-align: left;
     font-size: 12px;
@@ -38,13 +44,15 @@ p{
 input{
     height: 40px;
     width: 100%;
-    background-color: rgb(211, 211,211);
+    background-color: #edf2f7;
     padding: 10px;
     margin: 8px 0px 10px;
     outline: none;
     box-sizing: border-box;
     border: none; 
     border-radius: 5px;
+    font-family: inherit;
+    font-size: 100%;
 }
 .select{
     height: 50px;
@@ -52,7 +60,7 @@ input{
     border: none;
     border-radius: 4px;
     margin: 8px 0px 10px;
-    background-color: rgb(211, 211,211);
+    background-color: #edf2f7;
 }
 
 button{
